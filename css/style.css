@@ -94,11 +94,16 @@ span{
     text-shadow: none;
 }
 
-footer{
+footer {
     background: linear-gradient(90deg, #000, #0000ff 25%, #0066ff 70%, #000);
+    
+}
+
+footer > p {
     text-align: center;
     font-size: 20px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 0;
 }
